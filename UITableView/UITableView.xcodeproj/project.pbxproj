@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4FE5A335AB097A8F6200097 /* Pods_UITableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06797755ADCC7E5D196599D5 /* Pods_UITableView.framework */; };
+		FB2312AE27BF9165004AE0DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2312AD27BF9165004AE0DE /* AppDelegate.swift */; };
+		FB2312B027BF9165004AE0DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2312AF27BF9165004AE0DE /* SceneDelegate.swift */; };
+		FB2312B227BF9165004AE0DE /* CriptaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2312B127BF9165004AE0DE /* CriptaViewController.swift */; };
+		FB2312B727BF9166004AE0DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2312B627BF9166004AE0DE /* Assets.xcassets */; };
+		FB2312BA27BF9166004AE0DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2312B827BF9166004AE0DE /* LaunchScreen.storyboard */; };
+		FB2312C327C0CC8E004AE0DE /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2312C227C0CC8E004AE0DE /* TabBarController.swift */; };
+		FB2312C727C0D004004AE0DE /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2312C627C0D004004AE0DE /* FinanceViewController.swift */; };
+		FB2312CF27C0E4B6004AE0DE /* Cripta.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2312CE27C0E4B6004AE0DE /* Cripta.swift */; };
+		FB2312D227C0EAF8004AE0DE /* CriptaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2312D127C0EAF8004AE0DE /* CriptaTableViewCell.swift */; };
+		FB2312D427C5054A004AE0DE /* Finance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2312D327C5054A004AE0DE /* Finance.swift */; };
+		FB2312D627C50F4A004AE0DE /* FinanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2312D527C50F4A004AE0DE /* FinanceTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06797755ADCC7E5D196599D5 /* Pods_UITableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF19255FED5C52F8FB778A0 /* Pods-UITableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITableView.release.xcconfig"; path = "Target Support Files/Pods-UITableView/Pods-UITableView.release.xcconfig"; sourceTree = "<group>"; };
+		B3DF7DB614896E1F0B9F9A51 /* Pods-UITableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITableView.debug.xcconfig"; path = "Target Support Files/Pods-UITableView/Pods-UITableView.debug.xcconfig"; sourceTree = "<group>"; };
+		FB2312AA27BF9165004AE0DE /* UITableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2312AD27BF9165004AE0DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB2312AF27BF9165004AE0DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB2312B127BF9165004AE0DE /* CriptaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriptaViewController.swift; sourceTree = "<group>"; };
+		FB2312B627BF9166004AE0DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB2312B927BF9166004AE0DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB2312BB27BF9166004AE0DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB2312C227C0CC8E004AE0DE /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		FB2312C627C0D004004AE0DE /* FinanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
+		FB2312CE27C0E4B6004AE0DE /* Cripta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Cripta.swift; path = ../../../../../shahnoza/Desktop/UITableView/UITableView/Model/Cripta.swift; sourceTree = "<group>"; };
+		FB2312D127C0EAF8004AE0DE /* CriptaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CriptaTableViewCell.swift; path = ../../../../../shahnoza/Desktop/UITableView/UITableView/View/CriptaTableViewCell.swift; sourceTree = "<group>"; };
+		FB2312D327C5054A004AE0DE /* Finance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Finance.swift; path = ../../../../../shahnoza/Desktop/UITableView/UITableView/Model/Finance.swift; sourceTree = "<group>"; };
+		FB2312D527C50F4A004AE0DE /* FinanceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FinanceTableViewCell.swift; path = ../../../../../shahnoza/Desktop/UITableView/UITableView/View/FinanceTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB2312A727BF9165004AE0DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FE5A335AB097A8F6200097 /* Pods_UITableView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41726169E48481F65B7C82BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF7DB614896E1F0B9F9A51 /* Pods-UITableView.debug.xcconfig */,
+				0BF19255FED5C52F8FB778A0 /* Pods-UITableView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A6E0AF805C0833294C595A19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06797755ADCC7E5D196599D5 /* Pods_UITableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB2312A127BF9165004AE0DE = {
+			isa = PBXGroup;
+			children = (
+				FB2312AC27BF9165004AE0DE /* UITableView */,
+				FB2312AB27BF9165004AE0DE /* Products */,
+				41726169E48481F65B7C82BE /* Pods */,
+				A6E0AF805C0833294C595A19 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB2312AB27BF9165004AE0DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB2312AA27BF9165004AE0DE /* UITableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB2312AC27BF9165004AE0DE /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				FB2312D027C0EAAF004AE0DE /* View */,
+				FB2312CD27C0E4A0004AE0DE /* Model */,
+				FB2312C827C0D14D004AE0DE /* TabBarController */,
+				FB2312CC27C0E488004AE0DE /* Controller */,
+				FB2312CB27C0D1A0004AE0DE /* Supporting Files */,
+				FB2312BB27BF9166004AE0DE /* Info.plist */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		FB2312C827C0D14D004AE0DE /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				FB2312C227C0CC8E004AE0DE /* TabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		FB2312CB27C0D1A0004AE0DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB2312B827BF9166004AE0DE /* LaunchScreen.storyboard */,
+				FB2312AD27BF9165004AE0DE /* AppDelegate.swift */,
+				FB2312AF27BF9165004AE0DE /* SceneDelegate.swift */,
+				FB2312B627BF9166004AE0DE /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB2312CC27C0E488004AE0DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB2312B127BF9165004AE0DE /* CriptaViewController.swift */,
+				FB2312C627C0D004004AE0DE /* FinanceViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB2312CD27C0E4A0004AE0DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB2312CE27C0E4B6004AE0DE /* Cripta.swift */,
+				FB2312D327C5054A004AE0DE /* Finance.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB2312D027C0EAAF004AE0DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB2312D127C0EAF8004AE0DE /* CriptaTableViewCell.swift */,
+				FB2312D527C50F4A004AE0DE /* FinanceTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB2312A927BF9165004AE0DE /* UITableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2312BE27BF9166004AE0DE /* Build configuration list for PBXNativeTarget "UITableView" */;
+			buildPhases = (
+				E3AC0B71AF3C4D155CD7B760 /* [CP] Check Pods Manifest.lock */,
+				FB2312A627BF9165004AE0DE /* Sources */,
+				FB2312A727BF9165004AE0DE /* Frameworks */,
+				FB2312A827BF9165004AE0DE /* Resources */,
+				EBD8C2858E4BE250CC7366B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITableView;
+			productName = UITableView;
+			productReference = FB2312AA27BF9165004AE0DE /* UITableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB2312A227BF9165004AE0DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FB2312A927BF9165004AE0DE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FB2312A527BF9165004AE0DE /* Build configuration list for PBXProject "UITableView" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB2312A127BF9165004AE0DE;
+			productRefGroup = FB2312AB27BF9165004AE0DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB2312A927BF9165004AE0DE /* UITableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB2312A827BF9165004AE0DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2312BA27BF9166004AE0DE /* LaunchScreen.storyboard in Resources */,
+				FB2312B727BF9166004AE0DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E3AC0B71AF3C4D155CD7B760 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UITableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBD8C2858E4BE250CC7366B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UITableView/Pods-UITableView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UITableView/Pods-UITableView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UITableView/Pods-UITableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB2312A627BF9165004AE0DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2312B227BF9165004AE0DE /* CriptaViewController.swift in Sources */,
+				FB2312C327C0CC8E004AE0DE /* TabBarController.swift in Sources */,
+				FB2312AE27BF9165004AE0DE /* AppDelegate.swift in Sources */,
+				FB2312B027BF9165004AE0DE /* SceneDelegate.swift in Sources */,
+				FB2312D427C5054A004AE0DE /* Finance.swift in Sources */,
+				FB2312CF27C0E4B6004AE0DE /* Cripta.swift in Sources */,
+				FB2312D227C0EAF8004AE0DE /* CriptaTableViewCell.swift in Sources */,
+				FB2312C727C0D004004AE0DE /* FinanceViewController.swift in Sources */,
+				FB2312D627C50F4A004AE0DE /* FinanceTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB2312B827BF9166004AE0DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB2312B927BF9166004AE0DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB2312BC27BF9166004AE0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB2312BD27BF9166004AE0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB2312BF27BF9166004AE0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3DF7DB614896E1F0B9F9A51 /* Pods-UITableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UBXCLG55J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UITableView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.Shahnoza.UITableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB2312C027BF9166004AE0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF19255FED5C52F8FB778A0 /* Pods-UITableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UBXCLG55J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UITableView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.Shahnoza.UITableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB2312A527BF9165004AE0DE /* Build configuration list for PBXProject "UITableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2312BC27BF9166004AE0DE /* Debug */,
+				FB2312BD27BF9166004AE0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB2312BE27BF9166004AE0DE /* Build configuration list for PBXNativeTarget "UITableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2312BF27BF9166004AE0DE /* Debug */,
+				FB2312C027BF9166004AE0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB2312A227BF9165004AE0DE /* Project object */;
+}
